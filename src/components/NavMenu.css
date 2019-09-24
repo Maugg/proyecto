@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Sniglet');
+@font-face {
+  font-family:escuadron;
+  src: url('/byt.ttf.xhtml');
+}
+
+:root{
+  /*turquesa*/
+  --turquesa-primary-color: #00a49d;
+  --tsecundary-option-one:#E89E0C;
+
+  /*naranja*/
+  --naranja-primary-color: #e8641b;
+  --nsecundary-option-one:#E8330C;
+  --nsecundary-option-two:#E80C92;
+
+  /*azul*/
+  --azul-primary-color:#00A8EC;
+  --asecundary-option-one:#650CE8;
+
+  /*purpura*/
+  --purpura-primary-color:#2E0239;
+  --psecundary-option-one:#E8380C;
+  --psecundary-option-two:#FF6D0D;
+  --psecundary-option-three:#E80CA2;
+
+  /*barra-nav*/
+  --color-nav-primary:#00a8ec;
+  --color-barra-nav:#0079b9;
+  --subnav-color:#0079b9;
+  --form-focul:#DCEDC8;
+
+  /*Nav-verde*/
+  --activo-fondo-navbar: #689F38;
+  --activo-letra-navbar: #FFFFFF;
+  --inactivo-fondo-navbar: #DCEDC8;
+  --inactivo-letra-navbar: #757575;
+
+  /*cards*/
+  --card-color-border: #B31F0C;
+    /*color-section*/
+  --color-subnav-fondo:#f4f3ed;
+
+  --color-peligro:#f0506e;
+
+}
+.color-nav{
+  background-color: var(--color-nav-primary) !important;
+}
+.height-nav>ul>li>a,.logo{
+  min-height: 50px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-family: 'Sniglet', "Arial Black" !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  color:white !important;
+  box-sizing: border-box !important;
+  padding: 0 20px !important;
+  text-decoration: none !important;
+
+}
+
+.padding-logo{
+  padding: 8px 0px;
+}
+
+.header-color-card{
+  background-color: var(--color-nav-primary);
+}
+.barra-nav{
+  width: 100%;
+  height: 15px;
+  background-color: var(--color-barra-nav);
+}
+
+.lescuadron{
+	font-family:escuadron;
+}
+
+.letra-logo{
+    font-size: 27px;
+    position: relative;
+    top: 15px;
+    margin-left: 10px;
+}
+
+.uk-navbar-dropdown {
+    border: 3px solid;
+    border-color: var(--subnav-color);
+    border-radius: 5%;
+}

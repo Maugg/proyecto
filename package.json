@@ -29,6 +29,7 @@
     ]
   },
   "devDependencies": {
+    "react-grid-system": "^5.0.2",
     "uikit-react": "^3.0.20"
   }
 }
